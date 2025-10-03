@@ -2,17 +2,19 @@
 
     /* cores */
 
-    --cor-principal:var();
+    --cor-principal:var(--preto-desbotado);
     
     --cor-secundaria:var();
     
-    --font-color-principal:var();
+    --font-color-principal:var(--branco);
     
     --font-color-secundaria:var();
 
     --branco: #fff;
     
     --preto:#000;
+
+    --preto-desbotado: #0f131a;
     
     --pretinho:#121212;
 
@@ -152,9 +154,9 @@
     
     /* fontes */
 
-    --font-principal:var();
+    --font-principal:var(--font-pirata);
 
-    --font-secundaria:var();
+    --font-secundaria:var(--font-roboto);
 
     --font-amatic: 'Amatic SC', sans-serif;
 
@@ -226,7 +228,7 @@
     --tamanho-0dot3: 0.3rem;
     --tamanho-0dot2: 0.2rem;
     --tamanho-0dot1: 0.1rem;
-    /* 1 rem = 16 px */
+    /* 1 rem = 10 px */
     
     /* /tamanhos de fonte */
 

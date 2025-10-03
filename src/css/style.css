@@ -1,0 +1,118 @@
+body{
+    background-color: var(--cor-principal);
+    background: url('../images/bg.JPG');
+    line-height: 1.4;
+    padding: 3.2rem 2.4rem;
+
+}
+
+.header{
+    margin-bottom: 4.8rem;
+    z-index: 99;
+    position: relative;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.header h1 {
+    margin-bottom: 2rem;
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+.header .subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    max-width: 102.4rem;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+}
+
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1.6rem;
+    padding: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.card-header {
+    font-size: 3rem;
+    margin-bottom: 3.2rem;
+    text-align: center;
+}
+
+.form-group textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #474646;
+    width: 100%;
+    min-height: 12rem;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form-group textarea:focus{
+    outline: none;
+    border-color: #a655f7;
+}
+
+.form-group .btn-magic {
+    width: 100%;
+    padding:1.6rem 3.2rem;
+    background: linear-gradient(90deg, #a655f7 0%, #ff80aa 100%);
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.form-group .btn-magic:hover {
+    transform: translateY(-0.2rem);
+}
+
+.form-group .btn-magic #btn-text {
+    font-size: 1.8rem;
+}
+
+.preview-card {
+    display: none;
+}
+
+.code-grid {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.code-card{
+    background-color: #21242a;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1.6rem;
+    padding: 2.4rem;
+    width: 50%;   
+}
+
+.code-title {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+    text-align: center;
+}
+
+.code-block {
+    background-color: #0a0c10;
+    color: #83D277;
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: var(--font-secundaria);
+}
+

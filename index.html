@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="src/css/root.css" />
 
     <link rel="stylesheet" href="src/css/style.css" />
+
+    <link rel="stylesheet" href="src/css/resposive.css" />
   </head>
   <body>
     <header class="header">
@@ -38,17 +40,17 @@
 
     <main class="container">
       <section class="card main-card">
-        <h2>Descreva o Background que você deseja</h2>
+        <h2 class="card-header">Descreva o Background que você deseja</h2>
         <form class="form-group">
           <textarea
             id="description"
             placeholder="Exemplo: Um gradiente azul suave que vai do azul claro para o azul escuro"
             rows="5"
           ></textarea>
+          <button type="submit" id="generate-btn" class="btn-magic">
+            <span id="btn-text">Gerar Background Mágico</span>
+          </button>
         </form>
-        <button type="submit" id="generate-btn" class="btn-magic">
-          <span id="btn-text">Gerar Background Mágico</span>
-        </button>
       </section>
       <section id="preview-section" class="preview_card"></section>
       <section id="code-outpt" class="code-grid">
