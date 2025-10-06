@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		
 		try {
-			const response = await fetch("https://devclub-n8n-editor.g4yfpm.easypanel.host/webhook-test/gerador-fundo", {
+			const response = await fetch("https://devclub-n8n-webhook.g4yfpm.easypanel.host/webhook/gerador-fundo", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({ description }),
